@@ -1,0 +1,30 @@
+{
+  "name": "search-to-csv",
+  "version": "1.0.0",
+  "description": "A scraper for search results that exports to CSV",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/C-Rodg/Search-to-CSV.git"
+  },
+  "keywords": [
+    "Search",
+    "Results",
+    "javascript",
+    "bot",
+    "CSV"
+  ],
+  "author": "Curtis Rodgers",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/C-Rodg/Search-to-CSV/issues"
+  },
+  "homepage": "https://github.com/C-Rodg/Search-to-CSV#readme",
+  "dependencies": {
+    "async": "^2.1.1",
+    "nightmare": "^2.7.0"
+  }
+}
