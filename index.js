@@ -3,7 +3,7 @@ const Nightmare = require('nightmare'),
 	fs = require('fs'),
 	async = require('async'),
 	nightmare = Nightmare({
-		show: true, 
+		show: true,  // Handles visibility of Electron container
 		waitTimeout: 85000
 	 }),
 	settings  = require('./settings');
